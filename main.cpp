@@ -87,6 +87,13 @@ std::string article(const std::string& entry)
 
 int main(int argc,char **argv)
 {
+    string file;
+    if(argc > 1)
+    {     
+        file = argv[1];
+    } else {
+        file = "questions.dat";
+    }
     Binary_tree root;  
     // Strategy
     //  get the filename from the command line arguments
@@ -154,7 +161,6 @@ int main(int argc,char **argv)
     // When done, write the decision tree to the data file by calling
     // the write function so that the new
     // question and answer is added to the data file
-    string file = "questions.dat";
     std::fstream in(file);
     root = read(in);
     Binary_tree question_tree = root;

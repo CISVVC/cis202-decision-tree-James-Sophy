@@ -1,3 +1,9 @@
+/**
+ * Filename: main.cpp
+ * Description: word guessing program
+ * Date: 16/5/20
+ * Author: sophyj@student.vvc.edu
+**/
 /*
    This program will create a decision tree for an animal
    guessing game.

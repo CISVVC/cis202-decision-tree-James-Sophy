@@ -1,3 +1,9 @@
+/**
+ * Filename: binary_tree.h
+ * Description: binary tree
+ * Date: 16/5/20
+ * Author: sophyj@student.vvc.edu
+**/
 #pragma once
 
 #include <string>

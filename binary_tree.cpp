@@ -1,3 +1,9 @@
+/**
+ * Filename: binary_tree.cpp
+ * Description: binary tree
+ * Date: 16/5/20
+ * Author: sophyj@student.vvc.edu
+**/
 #include "binary_tree.h"
 
 Binary_tree::Binary_tree()
